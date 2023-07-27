@@ -1,0 +1,19 @@
+<!-- myapp/templates/task_completion.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Completion</title>
+</head>
+<body>
+    <h1>Mark Tasks as Completed:</h1>
+    <form action="{% url 'task_completion' %}" method="post">
+        {% csrf_token %}
+        <!-- Add input fields for your task completion form -->
+        <input type="checkbox" name="completed_tasks" value="Task 1"> Task 1<br>
+        <input type="checkbox" name="completed_tasks" value="Task 2"> Task 2<br>
+        <!-- Add more input fields for other tasks if needed -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
