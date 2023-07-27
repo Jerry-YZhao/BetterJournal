@@ -1,1 +1,1 @@
-# Theseus
+# Theseus (AI Assisted Journaling)
