@@ -1,1 +1,1 @@
-# Theseus (AI Assisted Journaling)
+# BetterJournal (AI Assisted Journaling)
