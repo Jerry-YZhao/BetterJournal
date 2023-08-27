@@ -1,2 +1,2 @@
 # BetterJournal (AI Assisted Journaling)
-![logo]()
+![logo](https://github.com/Jerry-YZhao/BetterJournal/blob/main/betterlogo.png)
